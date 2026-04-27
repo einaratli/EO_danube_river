@@ -3,24 +3,25 @@
 End-to-end pipeline for land cover classification using multi-temporal Sentinel-2 imagery and CORINE Land Cover 2018 labels over MGRS tile T33TYN (Danube basin, Central Europe). Course project for RAF622M — Machine Learning for Earth Observation with Supercomputers, University of Iceland, Spring 2026.
 
 ## Repository Structure
-EO_danube_river/
-├── notebooks/
-│   ├── data_gathering.ipynb                     # Sentinel-2 download from Copernicus
-│   ├── data_preprocessing - checkpoint 2.ipynb  # Band stacking and CORINE alignment
-│   └── final_experiment.ipynb                   # CNN baseline + ResNet final model
-├── experiments/
-│   ├── column_split.ipynb                       # Vertical split experiment (abandoned)
-│   ├── lab6.ipynb                               # TerraTorch/Prithvi experiment
-│   └── visulation.ipynb                         # Sentinel-2 RGB visualization
-├── figures/
-│   ├── alignment_64x64_blocks.png
-│   ├── alignment_S2B_MSIL2A_...png
-│   ├── class_distribution.png
-│   ├── confusion_matrix.png
-│   └── prediction_samples.png
-├── data_gathering.ipynb                         # (checkpoint 1)
-├── checkpoint1.ipynb                            # (checkpoint 1)
-└── visualization.ipynb                          # (checkpoint 1)
+
+    EO_danube_river/
+    ├── notebooks/
+    │   ├── data_gathering.ipynb                     # Sentinel-2 download from Copernicus
+    │   ├── data_preprocessing - checkpoint 2.ipynb  # Band stacking and CORINE alignment
+    │   └── final_experiment.ipynb                   # CNN baseline + ResNet final model
+    ├── experiments/
+    │   ├── column_split.ipynb                       # Vertical split experiment (abandoned)
+    │   ├── lab6.ipynb                               # TerraTorch/Prithvi experiment
+    │   └── visulation.ipynb                         # Sentinel-2 RGB visualization
+    ├── figures/
+    │   ├── alignment_64x64_blocks.png
+    │   ├── alignment_S2B_MSIL2A_...png
+    │   ├── class_distribution.png
+    │   ├── confusion_matrix.png
+    │   └── prediction_samples.png
+    ├── data_gathering.ipynb                         # (checkpoint 1)
+    ├── checkpoint1.ipynb                            # (checkpoint 1)
+    └── visualization.ipynb                          # (checkpoint 1)
 ## Dataset
 
 Data is stored on JURECA HPC system at Jülich Supercomputing Centre. Contact the authors for access permissions.
