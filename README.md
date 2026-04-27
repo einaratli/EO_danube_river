@@ -33,8 +33,10 @@ Data is stored on JURECA HPC system at Jülich Supercomputing Centre. Contact th
 ## How to Reproduce
 
 ### Environment
+```
 source /p/project1/training2600/TeamGudnason/envs/danube/bin/activate
 module load Python/3.12.3-GCCcore-13.3.0
+```
 
 ### 1. Data Acquisition
 
