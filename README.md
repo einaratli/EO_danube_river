@@ -27,8 +27,8 @@ EO_danube_river/
 │   ├── confusion_matrix.png
 │   └── prediction_samples.png
 ├── data_gathering.ipynb                 # (checkpoint 1)
-├── Untitled.ipynb                       # (checkpoint 1)
-└── visulation.ipynb                     # (checkpoint 1)
+├── checkpoint1.ipynb                       # (checkpoint 1)
+└── visulization.ipynb                     # (checkpoint 1)
 ```
 
 ## Dataset
