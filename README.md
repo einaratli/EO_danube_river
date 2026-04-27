@@ -21,7 +21,6 @@ EO_danube_river/
 ├── data_gathering.ipynb                         # (checkpoint 1)
 ├── checkpoint1.ipynb                            # (checkpoint 1)
 └── visualization.ipynb                          # (checkpoint 1)
-
 ## Dataset
 
 Data is stored on JURECA HPC system at Jülich Supercomputing Centre. Contact the authors for access permissions.
