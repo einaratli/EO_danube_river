@@ -13,9 +13,6 @@ EO_danube_river/
 │   ├── data_gathering.ipynb              # Sentinel-2 download from Copernicus
 │   ├── data_preprocessing.ipynb         # Band stacking and CORINE alignment
 │   └── final_experiment.ipynb           # CNN baseline + ResNet final model
-├── scripts/
-│   ├── block_split 2x4.ipynb            # 64×64 patch extraction with block split
-│   └── (resnet training in final_experiment.ipynb)
 ├── experiments/
 │   ├── column_split.ipynb               # Vertical split experiment (abandoned)
 │   ├── lab6.ipynb                       # TerraTorch/Prithvi experiment
